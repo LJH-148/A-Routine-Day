@@ -9,7 +9,7 @@ void main() {
     total += 1;
 
     if (total == 5) {
-      // total 값이 5면은 break 로 while loop 문을 빠져 나옴.
+      // total 값이 5 면 break 로 while loop 문을 빠져 나옴.
       break;
     }
   }
@@ -21,9 +21,17 @@ void main() {
   for (int i = 0; i < 10; i++) {
     total += 1;
     if (total == 5) {
-      // total 값이 5면은 break 로 while loop 문을 빠져 나옴.
+      // total 값이 5 면 break 로 while loop 문을 빠져 나옴.
       break;
     }
   }
   print(total);
+
+  // for if..continue
+  for (int i = 0; i < 10; i++) {
+    if (i == 5) {
+      continue; // i 값이 5 면 continue 로 현제 실행중인 loop 만 취소하고 나머지를 출력.
+    }
+    print(i);
+  }
 }
