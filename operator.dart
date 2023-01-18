@@ -69,16 +69,16 @@ void main() {
   print(result); // true
 
   bool result2 = 12 > 10 && 0 > 1; // 12가 10보다 크고 0이 1보다 클 때.
-  print(result); // false
+  print(result2); // false
 
   bool result3 = 12 > 10 || 1 > 0; // 12가 10보다 크거나 1이 0보다 클 때.
-  print(result); // true
+  print(result3); // true
 
   bool result4 = 12 > 10 || 0 > 1; // 12가 10보다 크거나 0이 1보다 클 때.
-  print(result); // true
+  print(result4); // true
 
   bool result5 = 12 < 10 && 1 > 0; // 12가 10보다 작거나 0이 1보다 클 때.
-  print(result); // false
+  print(result5); // false
 
   // and - && 는 전부 참일때 true
   // or  - || 은 둘 중 하나만 참이면 true. 둘다 거짓이면 false
